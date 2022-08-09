@@ -1,0 +1,71 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*---- Cabeçalho ----*/
+.cabecalho {
+    max-width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    max-height: 100%;
+    margin-top: 5rem;
+}
+/*---- Cabeçalho Finalizado ----*/
+
+/*---- Seção Princicipal ----*/
+.conteudoPrincipal {
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.button {
+    width: 29vw;
+    height: 14vh;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0.7rem;
+    font-size: 2rem;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #000;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid #000;
+}
+
+.paragraph {
+    padding: 1rem;
+    margin-top: 5rem;
+    max-width: 60%;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.textEffectAprovado {
+    background-color: #000;
+    color: aqua;
+    transition: 0.5s;
+}
+
+.textEffectReprovado {
+    background-color: #000;
+    color: red;
+    transition: 0.5s;
+}
+/*---- Seção Princicipal Finalizada ----*/
